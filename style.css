@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F8F9FA;
+}
+
+.Navbar{
+    background-color: rgb(133, 127, 96);
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px ;
+    margin: 50px 15%;
+}
+
+.container-1 > img{
+    height: 400px;
+}
+
+.container-1 .right-component{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+}
+.container-1 .right-component h1{
+    font-size: 50px;
+} 
+.container-1 .right-component p{
+    font-size: 22px;
+} 
+
+.UserAuthentication{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.UserAuthentication input{
+    height: 40px;
+    width: 500px;
+    font-size: 18px;
+    border: 1.5px solid rgb(225, 215, 215);
+    padding: 5px ;
+}
+.AuthenticationButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.AuthenticationButtons button{
+    
+    height: 40px;
+    width: 80px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(3, 78, 23);
+    border: 1.5px solid rgb(120, 62, 0, 0.223);
+    padding: 5px ;
+}
+
+
+.Navbar h1{
+    font-size: 50px;
+    color: rgb(3, 62, 3);
+}
+
+
+.Navbar .Right {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+
+
+.Navbar .Right ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.Navbar .Right ul > li{
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.Navbar .Right button{
+    height: 30px;
+    width: 80px;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    color: rgb(235, 206, 206);
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgb(23, 213, 55);
+        color: black;
+    }
+}
