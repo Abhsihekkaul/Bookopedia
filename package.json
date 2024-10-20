@@ -1,0 +1,27 @@
+{
+  "name": "bookopedia",
+  "version": "1.0.0",
+  "description": "My first project where everyone can summerize their learning from different books into their own words ",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhsihekkaul/Bookopedia.git"
+  },
+  "author": "Abhishek kaul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhsihekkaul/Bookopedia/issues"
+  },
+  "homepage": "https://github.com/Abhsihekkaul/Bookopedia#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
